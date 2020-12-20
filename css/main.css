@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* task-3 */
+
+#gallery {
+  list-style: none;
+  display: flex;
+  margin-top: 40px;
+}
+
+#gallery li {
+  width: 200px;
+  margin-left: 40px;
+}
