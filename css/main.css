@@ -32,3 +32,20 @@ img {
 #name-input {
   margin-top: 20px;
 }
+
+/* task-6 */
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+  outline: none;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+  outline: none;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+  outline: none;
+}
